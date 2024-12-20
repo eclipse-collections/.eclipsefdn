@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-collections') {
+orgs.newOrg('technology.collections', 'eclipse-collections') {
   settings+: {
     description: "",
     name: "Eclipse Collections project",
