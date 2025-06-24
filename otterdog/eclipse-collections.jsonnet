@@ -32,7 +32,8 @@ orgs.newOrg('technology.collections', 'eclipse-collections') {
     orgs.newRepo('eclipse-collections') {
       allow_merge_commit: true,
       code_scanning_default_languages+: [
-        "java-kotlin"
+        "actions",
+        "java-kotlin",
       ],
       code_scanning_default_setup_enabled: true,
       default_branch: "master",
